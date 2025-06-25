@@ -25,6 +25,9 @@ let package = Package(
           publicHeadersPath: "include",
           cSettings: [
                  .headerSearchPath("include")
+          ],
+          linkerSettings: [
+                 .unsafeFlags(["-w"])
              ]
         ),
         .target(
