@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "WireGuard-iOS",
+    name: "WireGuardKit",
     platforms: [
         .iOS(.v14),
         .macOS(.v11)
