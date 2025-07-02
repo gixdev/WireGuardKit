@@ -22,10 +22,6 @@ let package = Package(
         .target(
           name: "WireGuardKitC",
           dependencies: ["wg-go"],
-          publicHeadersPath: "include",
-          cSettings: [
-                 .headerSearchPath("include")
-          ],
           linkerSettings: [
                  .unsafeFlags(["-w"])
              ]
